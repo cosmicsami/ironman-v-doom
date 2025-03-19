@@ -1,0 +1,34 @@
+import random,pgzrun
+WIDTH=400
+HEIGHT=600
+TITLE="gradient"
+def draw():
+    r=random.randint(0,255)
+    s=0
+    d=255
+    w=WIDTH
+    h=HEIGHT/3
+    a=0
+    c=100
+    for it in range(7):
+        rect=Rect((a,c),(w,h))
+       # rect.center=150,150
+        screen.draw.rect(rect,(r,g,b))
+        w-=100
+        h+=100
+        s=s+100
+        d=d-100
+        a+=5
+        c-=5
+
+
+
+
+
+
+
+
+        
+pgzrun.go()
+
+
